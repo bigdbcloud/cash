@@ -63,6 +63,8 @@ public class CqlManager {
         hiveTypeToCqlType.put(serdeConstants.BOOLEAN_TYPE_NAME, "boolean");
         hiveTypeToCqlType.put(serdeConstants.DOUBLE_TYPE_NAME, "double");
         hiveTypeToCqlType.put(serdeConstants.FLOAT_TYPE_NAME, "float");
+        hiveTypeToCqlType.put(serdeConstants.BIGINT_TYPE_NAME, "bigint");
+        hiveTypeToCqlType.put(serdeConstants.TIMESTAMP_TYPE_NAME, "timestamp");
     }
 
   //Cassandra Host Name
